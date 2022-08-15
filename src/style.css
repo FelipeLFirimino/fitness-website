@@ -1,0 +1,38 @@
+
+.imagem-carrosel-um{
+   object-fit: cover;
+   object-position: 0 70%;
+   height: 400px;
+}
+
+.imagem-carrosel-dois{
+   object-fit: cover;
+   height: 400px;
+}
+
+
+.fonte-titulo {
+   font-family: 'Rubik Distressed', cursive;
+}
+.cor-titulo {
+   color: #5C6D70!important;
+}
+
+.cor-especial {
+ background-color: #DDCA7D!important; 
+}
+.borda-cor-especial{
+   border-color: #DDCA7D!important;
+}
+.card-size{
+   max-width: 18rem;
+}
+.card-posicao-img{
+   object-fit: cover;
+   object-position:0 80%;
+   height: 200px;
+}
+.icon{
+width: 35px;
+height: 35px;
+}

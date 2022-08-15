@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GYM UNIVERSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <title>GYM UNIVERSE</title>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand  fonte-titulo  " href="#" >Gym Universe</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <ul class="navbar-nav">
+              <li a class="nav-link active" aria-current="page" href="#">
+                Inicio
+              </li>
+              <li class="nav-link" href="#">Treinos</li>
+              <li class="nav-link" href="#">Quem somos</li>
+              <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">  <li class="nav-link" href="#">Contato</li></a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- carrosel -->
+    <main>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="Carousel"
+        data-interval="5000"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="src/img/carrosel1.jpg"
+              class="d-block w-100 imagem-carrosel-um"
+              alt="imagem1"
+            />
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h5 class="fonte-titulo display-4">
+                libere 100% do seu potencial
+              </h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/img/carrosel2.jpg"
+              class="d-block w-100 imagem-carrosel-dois"
+              alt="imagem2"
+            />
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h5 class="fonte-titulo display-4">Não deixe a idade ser um limite! temos treinos adapatados.</h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h2 class="text-center fonte-titulo  pt-5">
+       Treine conosco, faça parte desse universo!
+      </h2>
+      <p class="text-center text-secondary pb-3">
+      Nossos treinos adptados servem para qualquer ser humano despertar 100% de seu potencial, tambem temos receitas para fazer com que seus objetivos sejam facilmente alcançados.
+      </p>
+      <!-- parte dos cards -->
+      <section class="container-fluid bg-light" id="receitas">
+        <div class="row justify-content-center">
+          <article class="card borda-cor-especial card-size p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-3">
+            <img
+              src="src/img/chest.jpg"
+              class="card-img-top card-posicao-img"
+              alt="tigela com salada de abacate, vista superior"
+            />
+            <div class="card-body">
+              <h5 class="card-title fonte-titulo">Treino para musculação A</h5>
+              <p class="card-text">
+                Este treino focara em alguns membros superiores como biceps e costas!
+              </p>
+              <a href="#" class="btn  cor-especial">Ver treino</a>
+            </div>
+          </article>
+          <article class="card borda-cor-especial card-size p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-3">
+            <img
+              src="src/img/back.jpg"
+              class="card-img-top card-posicao-img"
+              alt="tigela de mingau com kiwi, vista superior"
+            />
+            <div class="card-body">
+              <h5 class="card-title fonte-titulo">Treino para musculação B</h5>
+              <p class="card-text">
+                Este treino focara em alguns membros superiores como triceps,peito e ombros!
+              </p>
+              <a href="#" class="btn cor-especial ">Ver treino</a>
+            </div>
+          </article>
+          <article class="card borda-cor-especial card-size p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-3">
+            <img
+              src="src/img/quads.jpg"
+              class="card-img-top card-posicao-img"
+              alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior"
+            />
+            <div class="card-body ">
+              <h5 class="card-title fonte-titulo">Treino para musculação C</h5>
+              <p class="card-text">
+                Este treino focara em alguns membros inferiores como quadriceps e panturilhas!
+              </p>
+              <a href="#" class="btn cor-especial ">Ver treino</a>
+            </div>
+          </article>
+          <article class="card borda-cor-especial card-size p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-3 " >
+            <img
+              src="src/img/posterior.jpg"
+              class="card-img-top card-posicao-img"
+              alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior"
+            />
+            <div class="card-body">
+              <h5 class="card-title fonte-titulo">Treino para musculação D</h5>
+              <p class="card-text">
+                Este treino focara em alguns membros inferiores como posteriores e gluteos!
+              </p>
+              <a href="#" class="btn cor-especial ">Ver treino</a>
+            </div>
+          </article>
+          <article class="card borda-cor-especial card-size p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img
+              src="src/img/cardio.jpg"
+              class="card-img-top card-posicao-img"
+              alt="tigela com salada de vegetais estilo oriental, vista de cima"
+            />
+            <div class="card-body">
+              <h5 class="card-title fonte-titulo">Treino para atividade cardiovascular</h5>
+              <p class="card-text">
+               perca alguns quilos e melhore sua atividade cardiovascular com esse treino!
+              </p>
+              <a href="#" class="btn cor-especial">Ver treino</a>
+            </div>
+          </article>
+          <article class="card borda-cor-especial p-0 m-4 col-sm-6 col-md-4 col-lg-3" >
+            <img
+              src="src/img/old.jpg"
+              class="card-img-top card-posicao-img"
+              alt="tigela com salada de vegetais estilo oriental, vista de cima"
+            />
+            <div class="card-body ">
+              <h5 class="card-title fonte-titulo">Treino adaptado(idosos)</h5>
+              <p class="card-text">
+               Não a idade limite para se exercitar! com esse treino a velha guarda entrara em forma!
+              </p>
+              <a href="#" class="btn cor-especial">Ver treino</a>
+            </div>
+          </article>
+        </div>
+      </section>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Contato</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="text area"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+
+    <footer class="bg-secondary p-3 text-center text-light fonte-titulo">
+      <p class="text-dark">
+        contato: <a class="text-dark m-0" href="mailto:email@frutafruto.com.br"
+          >email@frutafruto.com.br</a>
+          <br>
+          <a href=""><img class='icon' src="src/img/instagram_icon.png" alt="instagram icon"></a>
+      </p>
+    </footer>
+
+    <script src=""></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
